@@ -1,0 +1,1000 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UX/UI Academy - Aprende Diseño de Experiencias</title>
+    <meta name="description" content="Plataforma de aprendizaje sobre UX/UI Design. Cursos, recursos y guías para convertirte en un diseñador profesional.">
+    <title>Curso Completo UX/UI Design - Academia Profesional</title>
+    <meta name="description" content="Curso completo de UX/UI Design con metodología práctica, proyectos reales y certificación profesional.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+@@ -19,10 +19,12 @@ <h1>UX/UI Academy</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#courses">Cursos</a></li>
+                <li><a href="#resources">Recursos</a></li>
+                <li><a href="#about">Nosotros</a></li>
+                <li><a href="#contact" class="btn-outline">Contacto</a></li>
+                <li><a href="#programa">Programa</a></li>
+                <li><a href="#metodologia">Metodología</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#recursos">Recursos</a></li>
+                <li><a href="#instructores">Instructores</a></li>
+                <li><a href="#inscripcion" class="btn-outline">Inscribirse</a></li>
+            </ul>
+            <button class="menu-toggle" aria-label="Toggle menu">
+                <span></span>
+@@ -37,185 +39,787 @@ <h1>UX/UI Academy</h1>
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h2 class="hero-title">Domina el Arte del <span class="highlight">UX/UI Design</span></h2>
+                    <p class="hero-subtitle">Aprende a crear experiencias digitales excepcionales que conecten con los usuarios y generen resultados de negocio.</p>
+                    <div class="hero-badge">Curso Profesional 2024</div>
+                    <h2 class="hero-title">Curso Completo de <span class="highlight">UX/UI Design</span></h2>
+                    <p class="hero-subtitle">Conviértete en un diseñador UX/UI profesional con nuestro programa integral de 6 meses. Aprende desde los fundamentos hasta técnicas avanzadas con proyectos reales y mentorías personalizadas.</p>
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">6</span>
+                            <span class="stat-label">Meses</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">12</span>
+                            <span class="stat-label">Proyectos</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">100%</span>
+                            <span class="stat-label">Práctico</span>
+                        </div>
+                    </div>
+                    <div class="hero-actions">
+                        <a href="#courses" class="btn-primary">Explorar Cursos</a>
+                        <a href="#resources" class="btn-secondary">Ver Recursos</a>
+                        <a href="#inscripcion" class="btn-primary">Comenzar Ahora</a>
+                        <a href="#programa" class="btn-secondary">Ver Programa</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="design-elements">
+                        <div class="element element-1"></div>
+                        <div class="element element-2"></div>
+                        <div class="element element-3"></div>
+                    <div class="design-showcase">
+                        <div class="showcase-item showcase-1">
+                            <div class="wireframe-grid"></div>
+                        </div>
+                        <div class="showcase-item showcase-2">
+                            <div class="ui-component"></div>
+                        </div>
+                        <div class="showcase-item showcase-3">
+                            <div class="prototype-flow"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features">
+        <!-- Program Overview -->
+        <section id="programa" class="program">
+            <div class="container">
+                <h3 class="section-title">¿Por qué elegir UX/UI Academy?</h3>
+                <div class="features-grid">
+                    <div class="feature">
+                        <div class="feature-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M9 11H3v9h6v-9zM21 11h-6v9h6v-9zM15 3H9v7h6V3z"/>
+                            </svg>
+                        </div>
+                        <h4>Metodología Práctica</h4>
+                        <p>Aprende haciendo con proyectos reales y casos de estudio de la industria.</p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                            </svg>
+                        </div>
+                        <h4>Contenido Premium</h4>
+                        <p>Material de alta calidad creado por profesionales con años de experiencia.</p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                                <circle cx="9" cy="7" r="4"/>
+                                <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                            </svg>
+                        </div>
+                        <h4>Comunidad Activa</h4>
+                        <p>Conecta con otros diseñadores y recibe feedback de expertos.</p>
+                <h3 class="section-title">Programa del Curso</h3>
+                <div class="program-intro">
+                    <p>Nuestro programa está diseñado para llevarte desde cero hasta un nivel profesional en UX/UI Design. Cada módulo incluye teoría, práctica y proyectos reales.</p>
+                </div>
+                
+                <div class="modules-container">
+                    <div class="module-card">
+                        <div class="module-header">
+                            <span class="module-number">01</span>
+                            <h4>Fundamentos de UX</h4>
+                            <span class="module-duration">4 semanas</span>
+                        </div>
+                        <div class="module-content">
+                            <p>Introducción a los principios fundamentales del diseño de experiencia de usuario.</p>
+                            <ul class="module-topics">
+                                <li>¿Qué es UX Design?</li>
+                                <li>Design Thinking</li>
+                                <li>User-Centered Design</li>
+                                <li>Principios de usabilidad</li>
+                                <li>Heurísticas de Nielsen</li>
+                            </ul>
+                            <div class="module-deliverable">
+                                <strong>Entregable:</strong> Análisis de UX de una aplicación existente
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="module-card">
+                        <div class="module-header">
+                            <span class="module-number">02</span>
+                            <h4>Investigación de Usuario</h4>
+                            <span class="module-duration">3 semanas</span>
+                        </div>
+                        <div class="module-content">
+                            <p>Métodos y técnicas para entender profundamente a los usuarios.</p>
+                            <ul class="module-topics">
+                                <li>Métodos de investigación cualitativa y cuantitativa</li>
+                                <li>Entrevistas de usuario</li>
+                                <li>Encuestas y cuestionarios</li>
+                                <li>Personas y arquetipos</li>
+                                <li>Journey mapping</li>
+                                <li>Análisis competitivo</li>
+                            </ul>
+                            <div class="module-deliverable">
+                                <strong>Entregable:</strong> Investigación completa de usuario con personas y journey map
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="module-card">
+                        <div class="module-header">
+                            <span class="module-number">03</span>
+                            <h4>Arquitectura de Información</h4>
+                            <span class="module-duration">2 semanas</span>
+                        </div>
+                        <div class="module-content">
+                            <p>Estructuración y organización de la información para una navegación intuitiva.</p>
+                            <ul class="module-topics">
+                                <li>Card sorting</li>
+                                <li>Taxonomías y categorización</li>
+                                <li>Sitemaps</li>
+                                <li>User flows</li>
+                                <li>Task flows</li>
+                                <li>Navegación y estructura</li>
+                            </ul>
+                            <div class="module-deliverable">
+                                <strong>Entregable:</strong> Arquitectura completa de información para una app
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="module-card">
+                        <div class="module-header">
+                            <span class="module-number">04</span>
+                            <h4>Wireframing y Prototipado</h4>
+                            <span class="module-duration">3 semanas</span>
+                        </div>
+                        <div class="module-content">
+                            <p>Creación de wireframes y prototipos para validar ideas y conceptos.</p>
+                            <ul class="module-topics">
+                                <li>Sketching y ideación</li>
+                                <li>Wireframes de baja fidelidad</li>
+                                <li>Wireframes de alta fidelidad</li>
+                                <li>Prototipos interactivos</li>
+                                <li>Herramientas: Figma, Sketch, Adobe XD</li>
+                                <li>Testing de prototipos</li>
+                            </ul>
+                            <div class="module-deliverable">
+                                <strong>Entregable:</strong> Prototipo interactivo de media fidelidad
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="module-card">
+                        <div class="module-header">
+                            <span class="module-number">05</span>
+                            <h4>Fundamentos de UI Design</h4>
+                            <span class="module-duration">4 semanas</span>
+                        </div>
+                        <div class="module-content">
+                            <p>Principios visuales y creación de interfaces atractivas y funcionales.</p>
+                            <ul class="module-topics">
+                                <li>Principios de diseño visual</li>
+                                <li>Teoría del color</li>
+                                <li>Tipografía</li>
+                                <li>Layout y composición</li>
+                                <li>Grids y sistemas de diseño</li>
+                                <li>Iconografía</li>
+                            </ul>
+                            <div class="module-deliverable">
+                                <strong>Entregable:</strong> Style guide completo y componentes UI
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="module-card">
+                        <div class="module-header">
+                            <span class="module-number">06</span>
+                            <h4>Design Systems</h4>
+                            <span class="module-duration">3 semanas</span>
+                        </div>
+                        <div class="module-content">
+                            <p>Creación y mantenimiento de sistemas de diseño escalables.</p>
+                            <ul class="module-topics">
+                                <li>Atomic Design</li>
+                                <li>Component libraries</li>
+                                <li>Design tokens</li>
+                                <li>Documentación de sistemas</li>
+                                <li>Colaboración con desarrollo</li>
+                                <li>Escalabilidad y mantenimiento</li>
+                            </ul>
+                            <div class="module-deliverable">
+                                <strong>Entregable:</strong> Design system completo con documentación
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="module-card">
+                        <div class="module-header">
+                            <span class="module-number">07</span>
+                            <h4>Testing y Validación</h4>
+                            <span class="module-duration">3 semanas</span>
+                        </div>
+                        <div class="module-content">
+                            <p>Métodos para validar y mejorar diseños basándose en datos reales.</p>
+                            <ul class="module-topics">
+                                <li>Usability testing</li>
+                                <li>A/B testing</li>
+                                <li>Guerrilla testing</li>
+                                <li>Analytics y métricas</li>
+                                <li>Heatmaps y eye tracking</li>
+                                <li>Iteración basada en datos</li>
+                            </ul>
+                            <div class="module-deliverable">
+                                <strong>Entregable:</strong> Plan de testing y resultados de validación
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="module-card featured">
+                        <div class="module-header">
+                            <span class="module-number">08</span>
+                            <h4>Proyecto Final</h4>
+                            <span class="module-duration">4 semanas</span>
+                        </div>
+                        <div class="module-content">
+                            <p>Desarrollo completo de un proyecto real aplicando todos los conocimientos adquiridos.</p>
+                            <ul class="module-topics">
+                                <li>Definición del brief del proyecto</li>
+                                <li>Investigación y análisis</li>
+                                <li>Diseño completo UX/UI</li>
+                                <li>Prototipado y testing</li>
+                                <li>Presentación profesional</li>
+                                <li>Portfolio preparation</li>
+                            </ul>
+                            <div class="module-deliverable">
+                                <strong>Entregable:</strong> Proyecto completo para portfolio profesional
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Courses Section -->
+        <section id="courses" class="courses">
+        <!-- Methodology Section -->
+        <section id="metodologia" class="methodology">
+            <div class="container">
+                <h3 class="section-title">Nuestros Cursos</h3>
+                <div class="courses-grid">
+                    <div class="course-card">
+                        <div class="course-level">Principiante</div>
+                        <h4>Fundamentos de UX Design</h4>
+                        <p>Aprende los principios básicos del diseño de experiencias de usuario, desde la investigación hasta los wireframes.</p>
+                        <ul class="course-topics">
+                            <li>Investigación de usuarios</li>
+                            <li>Personas y user journeys</li>
+                            <li>Wireframing y prototipado</li>
+                            <li>Testing de usabilidad</li>
+                        </ul>
+                        <div class="course-footer">
+                            <span class="course-duration">8 semanas</span>
+                            <a href="#" class="btn-course">Ver Curso</a>
+                <h3 class="section-title">Nuestra Metodología</h3>
+                <div class="methodology-intro">
+                    <p>Aplicamos una metodología práctica y orientada a resultados, basada en proyectos reales y feedback continuo.</p>
+                </div>
+                
+                <div class="methodology-grid">
+                    <div class="method-card">
+                        <div class="method-icon">
+                            <div class="icon-grid">
+                                <div class="grid-item"></div>
+                                <div class="grid-item"></div>
+                                <div class="grid-item"></div>
+                                <div class="grid-item active"></div>
+                            </div>
+                        </div>
+                        <h4>Aprendizaje Práctico</h4>
+                        <p>70% práctica, 30% teoría. Cada concepto se aplica inmediatamente en ejercicios y proyectos reales.</p>
+                    </div>
+
+                    <div class="course-card featured">
+                        <div class="course-level">Intermedio</div>
+                        <h4>UI Design Avanzado</h4>
+                        <p>Domina las técnicas avanzadas de diseño de interfaces, sistemas de diseño y herramientas profesionales.</p>
+                        <ul class="course-topics">
+                            <li>Design Systems</li>
+                            <li>Figma avanzado</li>
+                            <li>Animaciones y microinteracciones</li>
+                            <li>Accesibilidad y responsive design</li>
+                        </ul>
+                        <div class="course-footer">
+                            <span class="course-duration">12 semanas</span>
+                            <a href="#" class="btn-course">Ver Curso</a>
+                    <div class="method-card">
+                        <div class="method-icon">
+                            <div class="icon-feedback">
+                                <div class="feedback-loop"></div>
+                            </div>
+                        </div>
+                        <h4>Feedback Continuo</h4>
+                        <p>Revisiones semanales personalizadas con mentores expertos para asegurar el progreso constante.</p>
+                    </div>
+
+                    <div class="course-card">
+                        <div class="course-level">Avanzado</div>
+                        <h4>UX Strategy & Leadership</h4>
+                        <p>Desarrolla habilidades de liderazgo en UX y aprende a implementar estrategias de diseño a nivel organizacional.</p>
+                        <ul class="course-topics">
+                            <li>UX Strategy</li>
+                            <li>Design Leadership</li>
+                            <li>Métricas y ROI del diseño</li>
+                            <li>Gestión de equipos de diseño</li>
+                        </ul>
+                        <div class="course-footer">
+                            <span class="course-duration">16 semanas</span>
+                            <a href="#" class="btn-course">Ver Curso</a>
+                    <div class="method-card">
+                        <div class="method-icon">
+                            <div class="icon-collaboration">
+                                <div class="collab-circle"></div>
+                                <div class="collab-circle"></div>
+                            </div>
+                        </div>
+                        <h4>Trabajo Colaborativo</h4>
+                        <p>Proyectos en equipo que simulan el ambiente profesional real de las empresas tecnológicas.</p>
+                    </div>
+
+                    <div class="method-card">
+                        <div class="method-icon">
+                            <div class="icon-portfolio">
+                                <div class="portfolio-stack">
+                                    <div class="stack-item"></div>
+                                    <div class="stack-item"></div>
+                                    <div class="stack-item"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <h4>Portfolio Building</h4>
+                        <p>Desarrollo gradual de un portfolio profesional con proyectos documentados y presentables.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="proyectos" class="projects">
+            <div class="container">
+                <h3 class="section-title">Proyectos Prácticos</h3>
+                <div class="projects-intro">
+                    <p>Durante el curso desarrollarás 12 proyectos diferentes que abarcan desde apps móviles hasta plataformas web complejas.</p>
+                </div>
+
+                <div class="projects-timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-marker">1</div>
+                        <div class="timeline-content">
+                            <h4>App de Productividad</h4>
+                            <p>Diseña una aplicación móvil para gestión de tareas con enfoque en usabilidad y minimalismo.</p>
+                            <div class="project-skills">
+                                <span class="skill-tag">User Research</span>
+                                <span class="skill-tag">Mobile UI</span>
+                                <span class="skill-tag">Prototipado</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker">2</div>
+                        <div class="timeline-content">
+                            <h4>E-commerce Responsive</h4>
+                            <p>Rediseño completo de una tienda online con enfoque en conversión y experiencia de compra.</p>
+                            <div class="project-skills">
+                                <span class="skill-tag">E-commerce UX</span>
+                                <span class="skill-tag">Responsive Design</span>
+                                <span class="skill-tag">A/B Testing</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker">3</div>
+                        <div class="timeline-content">
+                            <h4>Dashboard Analytics</h4>
+                            <p>Interfaz compleja para visualización de datos con múltiples niveles de información.</p>
+                            <div class="project-skills">
+                                <span class="skill-tag">Data Visualization</span>
+                                <span class="skill-tag">Complex UI</span>
+                                <span class="skill-tag">Information Architecture</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item featured">
+                        <div class="timeline-marker">★</div>
+                        <div class="timeline-content">
+                            <h4>Proyecto Capstone</h4>
+                            <p>Proyecto final elegido por ti: desde la investigación hasta el prototipo funcional completo.</p>
+                            <div class="project-skills">
+                                <span class="skill-tag">Full UX/UI Process</span>
+                                <span class="skill-tag">Portfolio Ready</span>
+                                <span class="skill-tag">Professional Presentation</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interactive Tools Section -->
+        <section class="tools-interaction">
+            <div class="container">
+                <h3 class="section-title">Herramientas y Tecnologías</h3>
+                <div class="tools-grid">
+                    <div class="tool-category">
+                        <h4>Diseño</h4>
+                        <div class="tool-items">
+                            <div class="tool-item">
+                                <span class="tool-name">Figma</span>
+                                <div class="tool-level">
+                                    <div class="level-bar" style="width: 100%"></div>
+                                </div>
+                            </div>
+                            <div class="tool-item">
+                                <span class="tool-name">Adobe XD</span>
+                                <div class="tool-level">
+                                    <div class="level-bar" style="width: 80%"></div>
+                                </div>
+                            </div>
+                            <div class="tool-item">
+                                <span class="tool-name">Sketch</span>
+                                <div class="tool-level">
+                                    <div class="level-bar" style="width: 70%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tool-category">
+                        <h4>Prototipado</h4>
+                        <div class="tool-items">
+                            <div class="tool-item">
+                                <span class="tool-name">Principle</span>
+                                <div class="tool-level">
+                                    <div class="level-bar" style="width: 90%"></div>
+                                </div>
+                            </div>
+                            <div class="tool-item">
+                                <span class="tool-name">Framer</span>
+                                <div class="tool-level">
+                                    <div class="level-bar" style="width: 75%"></div>
+                                </div>
+                            </div>
+                            <div class="tool-item">
+                                <span class="tool-name">ProtoPie</span>
+                                <div class="tool-level">
+                                    <div class="level-bar" style="width: 60%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tool-category">
+                        <h4>Testing</h4>
+                        <div class="tool-items">
+                            <div class="tool-item">
+                                <span class="tool-name">Maze</span>
+                                <div class="tool-level">
+                                    <div class="level-bar" style="width: 85%"></div>
+                                </div>
+                            </div>
+                            <div class="tool-item">
+                                <span class="tool-name">Hotjar</span>
+                                <div class="tool-level">
+                                    <div class="level-bar" style="width: 80%"></div>
+                                </div>
+                            </div>
+                            <div class="tool-item">
+                                <span class="tool-name">Lookback</span>
+                                <div class="tool-level">
+                                    <div class="level-bar" style="width: 70%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Resources Section -->
+        <section id="resources" class="resources">
+        <section id="recursos" class="resources">
+            <div class="container">
+                <h3 class="section-title">Recursos Gratuitos</h3>
+                <h3 class="section-title">Recursos de Aprendizaje</h3>
+                <div class="resources-grid">
+                    <div class="resource-card">
+                        <h4>Guías de Diseño</h4>
+                        <p>Documentos detallados sobre principios y mejores prácticas de UX/UI.</p>
+                        <a href="#" class="resource-link">Explorar Guías →</a>
+                        <div class="resource-icon">
+                            <div class="icon-book"></div>
+                        </div>
+                        <h4>Biblioteca Digital</h4>
+                        <p>Acceso a más de 200 recursos, libros digitales, artículos y casos de estudio actualizados.</p>
+                        <ul class="resource-list">
+                            <li>50+ Case studies reales</li>
+                            <li>Templates de Figma</li>
+                            <li>Checklists de UX</li>
+                            <li>Libros especializados</li>
+                        </ul>
+                    </div>
+
+                    <div class="resource-card">
+                        <h4>Templates & Assets</h4>
+                        <p>Plantillas de Figma, iconos y recursos descargables para tus proyectos.</p>
+                        <a href="#" class="resource-link">Descargar →</a>
+                        <div class="resource-icon">
+                            <div class="icon-video"></div>
+                        </div>
+                        <h4>Video Tutoriales</h4>
+                        <p>Más de 100 horas de contenido en video con técnicas paso a paso y demostraciones prácticas.</p>
+                        <ul class="resource-list">
+                            <li>Masterclasses exclusivas</li>
+                            <li>Tutoriales de herramientas</li>
+                            <li>Técnicas avanzadas</li>
+                            <li>Entrevistas con expertos</li>
+                        </ul>
+                    </div>
+
+                    <div class="resource-card">
+                        <h4>Case Studies</h4>
+                        <p>Análisis profundos de proyectos reales y decisiones de diseño.</p>
+                        <a href="#" class="resource-link">Ver Cases →</a>
+                        <div class="resource-icon">
+                            <div class="icon-community"></div>
+                        </div>
+                        <h4>Comunidad</h4>
+                        <p>Acceso exclusivo a nuestra comunidad privada con más de 1000 diseñadores activos.</p>
+                        <ul class="resource-list">
+                            <li>Slack workspace privado</li>
+                            <li>Sessions de co-working</li>
+                            <li>Feedback de la comunidad</li>
+                            <li>Networking events</li>
+                        </ul>
+                    </div>
+
+                    <div class="resource-card">
+                        <h4>Blog & Articles</h4>
+                        <p>Artículos actualizados sobre tendencias y novedades en UX/UI.</p>
+                        <a href="#" class="resource-link">Leer Blog →</a>
+                        <div class="resource-icon">
+                            <div class="icon-support"></div>
+                        </div>
+                        <h4>Soporte 24/7</h4>
+                        <p>Asistencia continua de nuestro equipo de instructores y mentores especializados.</p>
+                        <ul class="resource-list">
+                            <li>Q&A sessions semanales</li>
+                            <li>Office hours con mentores</li>
+                            <li>Revisiones 1:1</li>
+                            <li>Career guidance</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Instructors Section -->
+        <section id="instructores" class="instructors">
+            <div class="container">
+                <h3 class="section-title">Nuestros Instructores</h3>
+                <div class="instructors-grid">
+                    <div class="instructor-card">
+                        <div class="instructor-avatar">
+                            <div class="avatar-placeholder">MC</div>
+                        </div>
+                        <h4>María Carmen López</h4>
+                        <p class="instructor-role">Lead UX Designer @ Google</p>
+                        <p class="instructor-bio">8+ años de experiencia en productos digitales. Especialista en Design Systems y UX Research.</p>
+                        <div class="instructor-expertise">
+                            <span class="expertise-tag">UX Research</span>
+                            <span class="expertise-tag">Design Systems</span>
+                            <span class="expertise-tag">Product Strategy</span>
+                        </div>
+                    </div>
+
+                    <div class="instructor-card">
+                        <div class="instructor-avatar">
+                            <div class="avatar-placeholder">AR</div>
+                        </div>
+                        <h4>Alejandro Ruiz</h4>
+                        <p class="instructor-role">Senior UI Designer @ Spotify</p>
+                        <p class="instructor-bio">Experto en interfaces móviles y animaciones. Más de 10 años creando experiencias excepcionales.</p>
+                        <div class="instructor-expertise">
+                            <span class="expertise-tag">Mobile UI</span>
+                            <span class="expertise-tag">Microinteractions</span>
+                            <span class="expertise-tag">Visual Design</span>
+                        </div>
+                    </div>
+
+                    <div class="instructor-card">
+                        <div class="instructor-avatar">
+                            <div class="avatar-placeholder">SF</div>
+                        </div>
+                        <h4>Sofía Fernández</h4>
+                        <p class="instructor-role">UX Director @ Airbnb</p>
+                        <p class="instructor-bio">Líder en UX con experiencia en startups y grandes corporaciones. Especialista en strategy y leadership.</p>
+                        <div class="instructor-expertise">
+                            <span class="expertise-tag">UX Strategy</span>
+                            <span class="expertise-tag">Team Leadership</span>
+                            <span class="expertise-tag">Business Design</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Practice Zones -->
+        <section class="practice-zones">
+            <div class="container">
+                <h3 class="section-title">Zonas de Práctica</h3>
+                <div class="zones-grid">
+                    <div class="zone-card interactive" data-zone="design-lab">
+                        <div class="zone-header">
+                            <h4>Design Lab</h4>
+                            <span class="zone-status">Activo</span>
+                        </div>
+                        <p>Espacio virtual para experimentar con herramientas de diseño y recibir feedback en tiempo real.</p>
+                        <div class="zone-features">
+                            <span class="feature-item">Figma colaborativo</span>
+                            <span class="feature-item">Peer reviews</span>
+                            <span class="feature-item">Live sessions</span>
+                        </div>
+                        <button class="zone-action">Acceder →</button>
+                    </div>
+
+                    <div class="zone-card interactive" data-zone="usability-testing">
+                        <div class="zone-header">
+                            <h4>Testing Ground</h4>
+                            <span class="zone-status">Disponible</span>
+                        </div>
+                        <p>Plataforma para realizar pruebas de usabilidad con usuarios reales y analizar resultados.</p>
+                        <div class="zone-features">
+                            <span class="feature-item">User testing</span>
+                            <span class="feature-item">Analytics</span>
+                            <span class="feature-item">Heatmaps</span>
+                        </div>
+                        <button class="zone-action">Iniciar Test →</button>
+                    </div>
+
+                    <div class="zone-card interactive" data-zone="prototype-playground">
+                        <div class="zone-header">
+                            <h4>Prototype Playground</h4>
+                            <span class="zone-status">Beta</span>
+                        </div>
+                        <p>Área para crear y compartir prototipos interactivos con diferentes niveles de fidelidad.</p>
+                        <div class="zone-features">
+                            <span class="feature-item">Interactive prototypes</span>
+                            <span class="feature-item">Animation tools</span>
+                            <span class="feature-item">User flows</span>
+                        </div>
+                        <button class="zone-action">Crear Prototipo →</button>
+                    </div>
+
+                    <div class="zone-card interactive" data-zone="portfolio-studio">
+                        <div class="zone-header">
+                            <h4>Portfolio Studio</h4>
+                            <span class="zone-status">Premium</span>
+                        </div>
+                        <p>Herramientas para construir y perfeccionar tu portfolio profesional con templates y guidance.</p>
+                        <div class="zone-features">
+                            <span class="feature-item">Portfolio builder</span>
+                            <span class="feature-item">Templates premium</span>
+                            <span class="feature-item">Career coaching</span>
+                        </div>
+                        <button class="zone-action">Construir Portfolio →</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+        <!-- Certification -->
+        <section class="certification">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-text">
+                        <h3 class="section-title">Nuestra Misión</h3>
+                        <p>En UX/UI Academy creemos que el buen diseño puede cambiar el mundo. Nuestra misión es democratizar la educación en diseño de experiencias y formar a la próxima generación de diseñadores que crearán productos digitales más humanos y accesibles.</p>
+                        <p>Con más de 10 años de experiencia en la industria, nuestro equipo ha trabajado con startups y grandes corporaciones, y ahora queremos compartir todo ese conocimiento contigo.</p>
+                        <div class="stats">
+                            <div class="stat">
+                                <span class="stat-number">5,000+</span>
+                                <span class="stat-label">Estudiantes</span>
+                <div class="certification-content">
+                    <div class="certification-text">
+                        <h3>Certificación Profesional</h3>
+                        <p>Al completar el curso, recibirás nuestra certificación profesional reconocida por la industria, validando tus habilidades en UX/UI Design.</p>
+                        <div class="certification-features">
+                            <div class="cert-feature">
+                                <span class="cert-icon">✓</span>
+                                <span>Certificado verificable</span>
+                            </div>
+                            <div class="cert-feature">
+                                <span class="cert-icon">✓</span>
+                                <span>Reconocimiento internacional</span>
+                            </div>
+                            <div class="cert-feature">
+                                <span class="cert-icon">✓</span>
+                                <span>LinkedIn Badge</span>
+                            </div>
+                            <div class="cert-feature">
+                                <span class="cert-icon">✓</span>
+                                <span>Portfolio certificado</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">95%</span>
+                                <span class="stat-label">Tasa de éxito</span>
+                        </div>
+                    </div>
+                    <div class="certification-visual">
+                        <div class="certificate-mockup">
+                            <div class="cert-header">Certificado Profesional</div>
+                            <div class="cert-title">UX/UI Design</div>
+                            <div class="cert-recipient">Tu Nombre Aquí</div>
+                            <div class="cert-details">Ha completado exitosamente el programa profesional de UX/UI Design</div>
+                            <div class="cert-signature">UX/UI Academy</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing & Enrollment -->
+        <section id="inscripcion" class="enrollment">
+            <div class="container">
+                <h3 class="section-title">Comienza Tu Transformación</h3>
+                <div class="pricing-cards">
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h4>Curso Individual</h4>
+                            <div class="price">
+                                <span class="currency">$</span>
+                                <span class="amount">1,299</span>
+                                <span class="period">/curso</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">50+</span>
+                                <span class="stat-label">Empresas aliadas</span>
+                        </div>
+                        <div class="pricing-features">
+                            <div class="feature-item">✓ Acceso completo 6 meses</div>
+                            <div class="feature-item">✓ 12 proyectos prácticos</div>
+                            <div class="feature-item">✓ Mentorías grupales</div>
+                            <div class="feature-item">✓ Certificación profesional</div>
+                            <div class="feature-item">✓ Comunidad exclusiva</div>
+                            <div class="feature-item">✓ Recursos descargables</div>
+                        </div>
+                        <button class="pricing-cta">Inscribirse Ahora</button>
+                    </div>
+
+                    <div class="pricing-card featured">
+                        <div class="pricing-badge">Más Popular</div>
+                        <div class="pricing-header">
+                            <h4>Curso + Mentoría 1:1</h4>
+                            <div class="price">
+                                <span class="currency">$</span>
+                                <span class="amount">1,899</span>
+                                <span class="period">/curso</span>
+                            </div>
+                        </div>
+                        <div class="pricing-features">
+                            <div class="feature-item">✓ Todo lo del plan individual</div>
+                            <div class="feature-item">✓ 8 sesiones 1:1 con mentor</div>
+                            <div class="feature-item">✓ Review personalizado de portfolio</div>
+                            <div class="feature-item">✓ Preparación para entrevistas</div>
+                            <div class="feature-item">✓ Career guidance</div>
+                            <div class="feature-item">✓ Garantía de satisfacción</div>
+                        </div>
+                        <button class="pricing-cta">Comenzar Ahora</button>
+                    </div>
+                    <div class="about-visual">
+                        <div class="about-shape"></div>
+
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h4>Plan Empresarial</h4>
+                            <div class="price">
+                                <span class="amount">Personalizado</span>
+                            </div>
+                        </div>
+                        <div class="pricing-features">
+                            <div class="feature-item">✓ Capacitación de equipos</div>
+                            <div class="feature-item">✓ Contenido personalizado</div>
+                            <div class="feature-item">✓ Workshops in-company</div>
+                            <div class="feature-item">✓ Soporte dedicado</div>
+                            <div class="feature-item">✓ Métricas de progreso</div>
+                            <div class="feature-item">✓ Certificación corporativa</div>
+                        </div>
+                        <button class="pricing-cta secondary">Contactar Ventas</button>
+                    </div>
+                </div>
+
+                <div class="enrollment-guarantee">
+                    <p><strong>Garantía de satisfacción:</strong> Si no estás completamente satisfecho en los primeros 30 días, te devolvemos tu dinero.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+        <!-- FAQ Section -->
+        <section class="faq">
+            <div class="container">
+                <h3 class="section-title">¿Listo para comenzar?</h3>
+                <p class="contact-subtitle">Únete a nuestra comunidad y transforma tu carrera profesional</p>
+                <div class="contact-actions">
+                    <a href="#" class="btn-primary">Comenzar Ahora</a>
+                    <a href="mailto:hola@uxuiacademy.com" class="contact-email">hola@uxuiacademy.com</a>
+                <h3 class="section-title">Preguntas Frecuentes</h3>
+                <div class="faq-grid">
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false">
+                            <span>¿Necesito experiencia previa en diseño?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>No es necesario tener experiencia previa. El curso está diseñado para llevarte desde cero hasta un nivel profesional, comenzando con los fundamentos básicos.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false">
+                            <span>¿Qué software necesito?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Principalmente trabajaremos con Figma (gratuito) y ocasionalmente con otras herramientas. Te proporcionamos licencias educativas cuando sea necesario.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false">
+                            <span>¿El curso es completamente online?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Sí, es 100% online con horarios flexibles. Puedes estudiar a tu ritmo, aunque recomendamos seguir el cronograma sugerido para mejores resultados.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false">
+                            <span>¿Cuánto tiempo necesito dedicar por semana?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Recomendamos dedicar entre 8-12 horas por semana para completar todas las actividades, proyectos y asignaciones de manera óptima.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false">
+                            <span>¿Hay garantía de empleabilidad?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Aunque no podemos garantizar empleo, proporcionamos preparation para entrevistas, review de portfolio y conexiones con nuestra red de empresas aliadas.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false">
+                            <span>¿Puedo acceder al contenido después del curso?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Sí, tendrás acceso de por vida a todos los materiales, recursos y actualizaciones del curso, además de la comunidad exclusiva.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+@@ -227,31 +831,48 @@ <h3 class="section-title">¿Listo para comenzar?</h3>
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h4>UX/UI Academy</h4>
+                    <p>Educación de calidad en diseño de experiencias</p>
+                    <p>Transformando profesionales a través del diseño de experiencias excepcionales.</p>
+                    <div class="footer-social">
+                        <a href="#" aria-label="LinkedIn">LinkedIn</a>
+                        <a href="#" aria-label="Twitter">Twitter</a>
+                        <a href="#" aria-label="Instagram">Instagram</a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h5>Cursos</h5>
+                        <h5>Curso</h5>
+                        <ul>
+                            <li><a href="#programa">Programa</a></li>
+                            <li><a href="#metodologia">Metodología</a></li>
+                            <li><a href="#proyectos">Proyectos</a></li>
+                            <li><a href="#recursos">Recursos</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h5>Soporte</h5>
+                        <ul>
+                            <li><a href="#">Fundamentos UX</a></li>
+                            <li><a href="#">UI Design</a></li>
+                            <li><a href="#">UX Strategy</a></li>
+                            <li><a href="#">Centro de Ayuda</a></li>
+                            <li><a href="#">Contacto</a></li>
+                            <li><a href="#">Status del Sistema</a></li>
+                            <li><a href="#">Documentación</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h5>Recursos</h5>
+                        <h5>Empresa</h5>
+                        <ul>
+                            <li><a href="#">Guías</a></li>
+                            <li><a href="#">Templates</a></li>
+                            <li><a href="#">Sobre Nosotros</a></li>
+                            <li><a href="#">Carreras</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Prensa</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h5>Comunidad</h5>
+                        <h5>Legal</h5>
+                        <ul>
+                            <li><a href="#">Discord</a></li>
+                            <li><a href="#">LinkedIn</a></li>
+                            <li><a href="#">Twitter</a></li>
+                            <li><a href="#">Términos de Uso</a></li>
+                            <li><a href="#">Política de Privacidad</a></li>
+                            <li><a href="#">Cookies</a></li>
+                            <li><a href="#">GDPR</a></li>
+                        </ul>
+                    </div>
+                </div>
